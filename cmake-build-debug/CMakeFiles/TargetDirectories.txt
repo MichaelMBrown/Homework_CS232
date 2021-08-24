@@ -1,0 +1,3 @@
+/Users/makaylabrown/CLionProjects/Homework_CS232/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/makaylabrown/CLionProjects/Homework_CS232/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/makaylabrown/CLionProjects/Homework_CS232/cmake-build-debug/CMakeFiles/Homework_CS232.dir
