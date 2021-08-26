@@ -4,6 +4,8 @@
 #include <stdio.h>
 
 
-int main(){
-    printf("Hello CS232!");
+void printHelloWorld() { printf("Hello CS232!"); }
+
+int main() {
+    printHelloWorld();
 }
