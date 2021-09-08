@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Homework_CS232.dir/hw1/helloCS232.c.o"
+  "CMakeFiles/Homework_CS232.dir/hw2/primes.c.o"
   "Homework_CS232"
   "Homework_CS232.pdb"
 )

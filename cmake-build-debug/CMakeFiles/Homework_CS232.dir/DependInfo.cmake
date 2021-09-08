@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/makaylabrown/CLionProjects/Homework_CS232/hw1/helloCS232.c" "/Users/makaylabrown/CLionProjects/Homework_CS232/cmake-build-debug/CMakeFiles/Homework_CS232.dir/hw1/helloCS232.c.o"
+  "/Users/makaylabrown/CLionProjects/Homework_CS232/hw2/primes.c" "/Users/makaylabrown/CLionProjects/Homework_CS232/cmake-build-debug/CMakeFiles/Homework_CS232.dir/hw2/primes.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

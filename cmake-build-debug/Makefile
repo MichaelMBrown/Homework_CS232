@@ -129,29 +129,29 @@ Homework_CS232/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Homework_CS232.dir/build.make CMakeFiles/Homework_CS232.dir/build
 .PHONY : Homework_CS232/fast
 
-hw1/helloCS232.o: hw1/helloCS232.c.o
-.PHONY : hw1/helloCS232.o
+hw2/primes.o: hw2/primes.c.o
+.PHONY : hw2/primes.o
 
 # target to build an object file
-hw1/helloCS232.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Homework_CS232.dir/build.make CMakeFiles/Homework_CS232.dir/hw1/helloCS232.c.o
-.PHONY : hw1/helloCS232.c.o
+hw2/primes.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Homework_CS232.dir/build.make CMakeFiles/Homework_CS232.dir/hw2/primes.c.o
+.PHONY : hw2/primes.c.o
 
-hw1/helloCS232.i: hw1/helloCS232.c.i
-.PHONY : hw1/helloCS232.i
+hw2/primes.i: hw2/primes.c.i
+.PHONY : hw2/primes.i
 
 # target to preprocess a source file
-hw1/helloCS232.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Homework_CS232.dir/build.make CMakeFiles/Homework_CS232.dir/hw1/helloCS232.c.i
-.PHONY : hw1/helloCS232.c.i
+hw2/primes.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Homework_CS232.dir/build.make CMakeFiles/Homework_CS232.dir/hw2/primes.c.i
+.PHONY : hw2/primes.c.i
 
-hw1/helloCS232.s: hw1/helloCS232.c.s
-.PHONY : hw1/helloCS232.s
+hw2/primes.s: hw2/primes.c.s
+.PHONY : hw2/primes.s
 
 # target to generate assembly for a file
-hw1/helloCS232.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Homework_CS232.dir/build.make CMakeFiles/Homework_CS232.dir/hw1/helloCS232.c.s
-.PHONY : hw1/helloCS232.c.s
+hw2/primes.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Homework_CS232.dir/build.make CMakeFiles/Homework_CS232.dir/hw2/primes.c.s
+.PHONY : hw2/primes.c.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Homework_CS232"
-	@echo "... hw1/helloCS232.o"
-	@echo "... hw1/helloCS232.i"
-	@echo "... hw1/helloCS232.s"
+	@echo "... hw2/primes.o"
+	@echo "... hw2/primes.i"
+	@echo "... hw2/primes.s"
 .PHONY : help
 
 

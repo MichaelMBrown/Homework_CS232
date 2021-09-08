@@ -6,6 +6,6 @@
 
 void printHelloWorld() { printf("Hello CS232!"); }
 
-int main() {
+int mainNon() {
     printHelloWorld();
 }

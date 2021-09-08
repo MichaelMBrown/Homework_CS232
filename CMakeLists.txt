@@ -3,4 +3,5 @@ project(Homework_CS232 C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(Homework_CS232 hw1/helloCS232.c)
+add_executable(Homework_CS232 hw2/primes.c)
+#add_executable(Homework_CS232 inClassWork/scratchFile.c)

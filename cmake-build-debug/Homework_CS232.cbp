@@ -78,7 +78,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/makaylabrown/CLionProjects/Homework_CS232/hw1/helloCS232.c">
+		<Unit filename="/Users/makaylabrown/CLionProjects/Homework_CS232/hw2/primes.c">
 			<Option target="Homework_CS232"/>
 		</Unit>
 		<Unit filename="/Users/makaylabrown/CLionProjects/Homework_CS232/CMakeLists.txt">
