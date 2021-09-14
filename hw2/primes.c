@@ -4,6 +4,9 @@
 
 int lowerBound, upperBound;
 
+#pragma clang diagnostic push
+#pragma ide diagnostic ignored "cert-err34-c"
+
 int main(int argc, const char **argv) {
 
 
@@ -39,4 +42,6 @@ int main(int argc, const char **argv) {
     }
     return 0;
 }
+
+#pragma clang diagnostic pop
 
