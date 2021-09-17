@@ -3,6 +3,12 @@ project(Homework_CS232 C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(Homework_CS232 hw3/fifteen.c)
-#add_executable(inClassWork/palindrome.c)
+set(inClass OFF)
+
+if (${inClass})
+    add_executable(Homework_CS232 inClassWork/TestCode.c)
+else ()
+    add_executable(Homework_CS232 hw3/fifteen.c)
+endif ()
+
 #add_executable(Homework_CS232 inClassWork/scratchFile.c)
