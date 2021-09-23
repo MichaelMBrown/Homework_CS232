@@ -66,27 +66,27 @@ include CMakeFiles/Homework_CS232.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Homework_CS232.dir/flags.make
 
-CMakeFiles/Homework_CS232.dir/hw3/fifteen.c.o: CMakeFiles/Homework_CS232.dir/flags.make
-CMakeFiles/Homework_CS232.dir/hw3/fifteen.c.o: ../hw3/fifteen.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/makaylabrown/CLionProjects/Homework_CS232/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Homework_CS232.dir/hw3/fifteen.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Homework_CS232.dir/hw3/fifteen.c.o -c /Users/makaylabrown/CLionProjects/Homework_CS232/hw3/fifteen.c
+CMakeFiles/Homework_CS232.dir/inClassWork/TestCode.c.o: CMakeFiles/Homework_CS232.dir/flags.make
+CMakeFiles/Homework_CS232.dir/inClassWork/TestCode.c.o: ../inClassWork/TestCode.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/makaylabrown/CLionProjects/Homework_CS232/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Homework_CS232.dir/inClassWork/TestCode.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Homework_CS232.dir/inClassWork/TestCode.c.o -c /Users/makaylabrown/CLionProjects/Homework_CS232/inClassWork/TestCode.c
 
-CMakeFiles/Homework_CS232.dir/hw3/fifteen.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Homework_CS232.dir/hw3/fifteen.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/makaylabrown/CLionProjects/Homework_CS232/hw3/fifteen.c > CMakeFiles/Homework_CS232.dir/hw3/fifteen.c.i
+CMakeFiles/Homework_CS232.dir/inClassWork/TestCode.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Homework_CS232.dir/inClassWork/TestCode.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/makaylabrown/CLionProjects/Homework_CS232/inClassWork/TestCode.c > CMakeFiles/Homework_CS232.dir/inClassWork/TestCode.c.i
 
-CMakeFiles/Homework_CS232.dir/hw3/fifteen.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Homework_CS232.dir/hw3/fifteen.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/makaylabrown/CLionProjects/Homework_CS232/hw3/fifteen.c -o CMakeFiles/Homework_CS232.dir/hw3/fifteen.c.s
+CMakeFiles/Homework_CS232.dir/inClassWork/TestCode.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Homework_CS232.dir/inClassWork/TestCode.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/makaylabrown/CLionProjects/Homework_CS232/inClassWork/TestCode.c -o CMakeFiles/Homework_CS232.dir/inClassWork/TestCode.c.s
 
 # Object files for target Homework_CS232
 Homework_CS232_OBJECTS = \
-"CMakeFiles/Homework_CS232.dir/hw3/fifteen.c.o"
+"CMakeFiles/Homework_CS232.dir/inClassWork/TestCode.c.o"
 
 # External object files for target Homework_CS232
 Homework_CS232_EXTERNAL_OBJECTS =
 
-Homework_CS232: CMakeFiles/Homework_CS232.dir/hw3/fifteen.c.o
+Homework_CS232: CMakeFiles/Homework_CS232.dir/inClassWork/TestCode.c.o
 Homework_CS232: CMakeFiles/Homework_CS232.dir/build.make
 Homework_CS232: CMakeFiles/Homework_CS232.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/makaylabrown/CLionProjects/Homework_CS232/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable Homework_CS232"

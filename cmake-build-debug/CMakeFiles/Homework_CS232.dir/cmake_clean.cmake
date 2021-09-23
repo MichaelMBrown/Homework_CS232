@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Homework_CS232.dir/hw3/fifteen.c.o"
+  "CMakeFiles/Homework_CS232.dir/inClassWork/TestCode.c.o"
   "Homework_CS232"
   "Homework_CS232.pdb"
 )

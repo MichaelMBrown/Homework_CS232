@@ -129,29 +129,29 @@ Homework_CS232/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Homework_CS232.dir/build.make CMakeFiles/Homework_CS232.dir/build
 .PHONY : Homework_CS232/fast
 
-hw3/fifteen.o: hw3/fifteen.c.o
-.PHONY : hw3/fifteen.o
+inClassWork/TestCode.o: inClassWork/TestCode.c.o
+.PHONY : inClassWork/TestCode.o
 
 # target to build an object file
-hw3/fifteen.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Homework_CS232.dir/build.make CMakeFiles/Homework_CS232.dir/hw3/fifteen.c.o
-.PHONY : hw3/fifteen.c.o
+inClassWork/TestCode.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Homework_CS232.dir/build.make CMakeFiles/Homework_CS232.dir/inClassWork/TestCode.c.o
+.PHONY : inClassWork/TestCode.c.o
 
-hw3/fifteen.i: hw3/fifteen.c.i
-.PHONY : hw3/fifteen.i
+inClassWork/TestCode.i: inClassWork/TestCode.c.i
+.PHONY : inClassWork/TestCode.i
 
 # target to preprocess a source file
-hw3/fifteen.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Homework_CS232.dir/build.make CMakeFiles/Homework_CS232.dir/hw3/fifteen.c.i
-.PHONY : hw3/fifteen.c.i
+inClassWork/TestCode.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Homework_CS232.dir/build.make CMakeFiles/Homework_CS232.dir/inClassWork/TestCode.c.i
+.PHONY : inClassWork/TestCode.c.i
 
-hw3/fifteen.s: hw3/fifteen.c.s
-.PHONY : hw3/fifteen.s
+inClassWork/TestCode.s: inClassWork/TestCode.c.s
+.PHONY : inClassWork/TestCode.s
 
 # target to generate assembly for a file
-hw3/fifteen.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Homework_CS232.dir/build.make CMakeFiles/Homework_CS232.dir/hw3/fifteen.c.s
-.PHONY : hw3/fifteen.c.s
+inClassWork/TestCode.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Homework_CS232.dir/build.make CMakeFiles/Homework_CS232.dir/inClassWork/TestCode.c.s
+.PHONY : inClassWork/TestCode.c.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Homework_CS232"
-	@echo "... hw3/fifteen.o"
-	@echo "... hw3/fifteen.i"
-	@echo "... hw3/fifteen.s"
+	@echo "... inClassWork/TestCode.o"
+	@echo "... inClassWork/TestCode.i"
+	@echo "... inClassWork/TestCode.s"
 .PHONY : help
 
 

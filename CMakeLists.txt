@@ -3,7 +3,7 @@ project(Homework_CS232 C)
 
 set(CMAKE_C_STANDARD 99)
 
-set(inClass OFF)
+set(inClass ON)
 
 if (${inClass})
     add_executable(Homework_CS232 inClassWork/TestCode.c)

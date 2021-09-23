@@ -6,11 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/makaylabrown/CLionProjects/Homework_CS232/hw3/fifteen.c
+/Users/makaylabrown/CLionProjects/Homework_CS232/inClassWork/TestCode.c
 stdio.h
--
-stdlib.h
--
-unistd.h
 -
 

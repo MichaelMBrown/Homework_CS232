@@ -78,7 +78,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/makaylabrown/CLionProjects/Homework_CS232/hw3/fifteen.c">
+		<Unit filename="/Users/makaylabrown/CLionProjects/Homework_CS232/inClassWork/TestCode.c">
 			<Option target="Homework_CS232"/>
 		</Unit>
 		<Unit filename="/Users/makaylabrown/CLionProjects/Homework_CS232/CMakeLists.txt">

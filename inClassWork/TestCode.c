@@ -1,9 +1,15 @@
 #include<stdio.h>
-#include<string.h>
+#include <stdlib.h>
+
+void getPowers(int x, int *pxSqr, int *pxCube) {
+    *pxSqr = x * x;
+    *pxCube = *pxSqr * x;
+}
 
 int main() {
-    int test = 24;
-    (test % 2 == 0) ? printf("Even\n"), printf("\n"), printf("Test\n") : printf("Odd\n");
-    return 0;
+    int x, xSqr, xCube;
+    x = 3;
+    getPowers(x, &xSqr, &xCube);
+    printf("%d %d %d", x, xSqr, xCube);
 }
 
