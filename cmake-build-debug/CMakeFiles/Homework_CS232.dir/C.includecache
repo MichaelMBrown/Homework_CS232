@@ -7,6 +7,10 @@
 #IncludeRegexTransform: 
 
 /Users/makaylabrown/CLionProjects/Homework_CS232/inClassWork/TestCode.c
+stddef.h
+-
+stdlib.h
+-
 stdio.h
 -
 
