@@ -8,7 +8,7 @@ set(inClass ON)
 if (${inClass})
     add_executable(Homework_CS232 inClassWork/TestCode.c)
 else ()
-    add_executable(Homework_CS232 project1/crawler.c)
+    add_executable(Homework_CS232 project2/indexPage.c)
 endif ()
 
 #add_executable(Homework_CS232 inClassWork/scratchFile.c)
