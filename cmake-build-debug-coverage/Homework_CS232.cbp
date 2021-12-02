@@ -78,7 +78,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/makaylabrown/CLionProjects/Homework_CS232/inClassWork/TestCode.c">
+		<Unit filename="/Users/makaylabrown/CLionProjects/Homework_CS232/project2/indexPage.c">
+			<Option target="Homework_CS232"/>
+		</Unit>
+		<Unit filename="/Users/makaylabrown/CLionProjects/Homework_CS232/project3/searchEngine.c">
+			<Option target="Homework_CS232"/>
+		</Unit>
+		<Unit filename="/Users/makaylabrown/CLionProjects/Homework_CS232/project3/searchEngine.h">
 			<Option target="Homework_CS232"/>
 		</Unit>
 		<Unit filename="/Users/makaylabrown/CLionProjects/Homework_CS232/CMakeLists.txt">

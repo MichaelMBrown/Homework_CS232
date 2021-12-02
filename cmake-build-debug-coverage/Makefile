@@ -129,29 +129,53 @@ Homework_CS232/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Homework_CS232.dir/build.make CMakeFiles/Homework_CS232.dir/build
 .PHONY : Homework_CS232/fast
 
-inClassWork/TestCode.o: inClassWork/TestCode.c.o
-.PHONY : inClassWork/TestCode.o
+project2/indexPage.o: project2/indexPage.c.o
+.PHONY : project2/indexPage.o
 
 # target to build an object file
-inClassWork/TestCode.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Homework_CS232.dir/build.make CMakeFiles/Homework_CS232.dir/inClassWork/TestCode.c.o
-.PHONY : inClassWork/TestCode.c.o
+project2/indexPage.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Homework_CS232.dir/build.make CMakeFiles/Homework_CS232.dir/project2/indexPage.c.o
+.PHONY : project2/indexPage.c.o
 
-inClassWork/TestCode.i: inClassWork/TestCode.c.i
-.PHONY : inClassWork/TestCode.i
+project2/indexPage.i: project2/indexPage.c.i
+.PHONY : project2/indexPage.i
 
 # target to preprocess a source file
-inClassWork/TestCode.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Homework_CS232.dir/build.make CMakeFiles/Homework_CS232.dir/inClassWork/TestCode.c.i
-.PHONY : inClassWork/TestCode.c.i
+project2/indexPage.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Homework_CS232.dir/build.make CMakeFiles/Homework_CS232.dir/project2/indexPage.c.i
+.PHONY : project2/indexPage.c.i
 
-inClassWork/TestCode.s: inClassWork/TestCode.c.s
-.PHONY : inClassWork/TestCode.s
+project2/indexPage.s: project2/indexPage.c.s
+.PHONY : project2/indexPage.s
 
 # target to generate assembly for a file
-inClassWork/TestCode.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Homework_CS232.dir/build.make CMakeFiles/Homework_CS232.dir/inClassWork/TestCode.c.s
-.PHONY : inClassWork/TestCode.c.s
+project2/indexPage.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Homework_CS232.dir/build.make CMakeFiles/Homework_CS232.dir/project2/indexPage.c.s
+.PHONY : project2/indexPage.c.s
+
+project3/searchEngine.o: project3/searchEngine.c.o
+.PHONY : project3/searchEngine.o
+
+# target to build an object file
+project3/searchEngine.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Homework_CS232.dir/build.make CMakeFiles/Homework_CS232.dir/project3/searchEngine.c.o
+.PHONY : project3/searchEngine.c.o
+
+project3/searchEngine.i: project3/searchEngine.c.i
+.PHONY : project3/searchEngine.i
+
+# target to preprocess a source file
+project3/searchEngine.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Homework_CS232.dir/build.make CMakeFiles/Homework_CS232.dir/project3/searchEngine.c.i
+.PHONY : project3/searchEngine.c.i
+
+project3/searchEngine.s: project3/searchEngine.c.s
+.PHONY : project3/searchEngine.s
+
+# target to generate assembly for a file
+project3/searchEngine.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Homework_CS232.dir/build.make CMakeFiles/Homework_CS232.dir/project3/searchEngine.c.s
+.PHONY : project3/searchEngine.c.s
 
 # Help Target
 help:
@@ -162,9 +186,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Homework_CS232"
-	@echo "... inClassWork/TestCode.o"
-	@echo "... inClassWork/TestCode.i"
-	@echo "... inClassWork/TestCode.s"
+	@echo "... project2/indexPage.o"
+	@echo "... project2/indexPage.i"
+	@echo "... project2/indexPage.s"
+	@echo "... project3/searchEngine.o"
+	@echo "... project3/searchEngine.i"
+	@echo "... project3/searchEngine.s"
 .PHONY : help
 
 
