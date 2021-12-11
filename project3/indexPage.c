@@ -1,6 +1,6 @@
 
 /* File : indexPage.c * /
-/* Author: Britton Wolfe */
+/ * Author: Britton Wolfe */
 /* Date: September 3rd, 2010 */
 
 /* This program indexes a web page, printing out the counts of words on that page */
@@ -59,8 +59,7 @@ int runIndexerOnPage(int argc, char **argv) {
         return 1;
     }
     struct TrieNode *root = indexPage(argv[1]);
-    char word[MAX_CHAR];
-//    printTrieContents(root, word, 0);
+    //    printTrieContents(root, word, 0);
     freeTrieMemory(root);
 
     return 0;
@@ -90,6 +89,7 @@ struct TrieNode *indexPage(const char *url) {
             isNewWord = 0;
         }
     }
+
     free(buffer);
     return root;
 }

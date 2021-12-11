@@ -46,7 +46,7 @@ void destroyList(struct listNode *pNode);
  */
 int getLink(const char* srcAddr, char* link, int maxLinkLength);
 
-int main(int argc, char** argv){
+int crawl(int argc, char** argv){
   
   long seed;
   char startAddr[MAX_ADDR_LENGTH];
